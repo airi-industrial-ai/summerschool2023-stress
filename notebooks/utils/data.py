@@ -43,7 +43,7 @@ def get_Electricity_Consuming_Load_dataset():
         'https://raw.githubusercontent.com/airi-industrial-ai/summerschool2023-stress/main/data/ECL.csv'
     )
     open('ECL.csv', 'wb').write(r.content)
-    ecl = pd.read_csv('EC.csv', index_col=0)
+    ecl = pd.read_csv('ECL.csv', index_col=0)
     ecl.index = pd.to_datetime(ett.index)
 
     return ecl
