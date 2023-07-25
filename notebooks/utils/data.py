@@ -44,6 +44,6 @@ def get_Electricity_Consuming_Load_dataset():
     )
     open('ECL.csv', 'wb').write(r.content)
     ecl = pd.read_csv('ECL.csv', index_col=0)
-    ecl.index = pd.to_datetime(ett.index)
+    ecl.index = pd.to_datetime(ecl.index)
 
     return ecl
