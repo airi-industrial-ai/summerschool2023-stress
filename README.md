@@ -9,14 +9,8 @@
 Решение: создать правдоподобные методы генерации временных рядов для оценки устойчивости моделей.
 Цель работы: оценить качество моделей на валидационной выборке и на фейковых данных и оценить устойчивость к сдвигам данных.
 
-## Conclusion
-- Image features allow to increase quality of fake news detection
-- Results should be validated on more datasets
-- CLIP similarities may be added to the feature set
-
-
-## Team True NLP Detectives:
-- Alexander Kharitonov
-- Danil Gusak
-- Dmitriy Kornilov
-- Alina Bogdanova
+## Команда:
+- Данил Гусак
+- Юлия Якимова
+## Куратор
+- Виталий Поздняков
